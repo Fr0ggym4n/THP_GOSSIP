@@ -6,19 +6,22 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
+`2.7.1`
 
 * Configuration
+Use `gem bundler install`
+run `bundle install`
+
 
 * Database creation
+run `rails db:create`
 
 * Database initialization
+run `rails db:migrate`
+check migration with `rails deb:migrate:status`
+if everything is `up`
 
 * How to run the test suite
+run `rails db:seed`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy !
